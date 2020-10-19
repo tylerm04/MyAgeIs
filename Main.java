@@ -10,7 +10,13 @@ class Main
    if(myBirthday == todaysDate)
    {
      System.out.println("It is my birthday.");
+     
+     myAge++;
+    
+     System.out.println("I am " + myAge + " years old.");
+
    }else{
+     
      System.out.println("It isn't my birthday.");
 
      System.out.println("I am still " + myAge + " years old.");
